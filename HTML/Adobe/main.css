@@ -1,0 +1,42 @@
+.box1 {
+    width: 100%;
+    height: 10vh;
+    margin-bottom: 10px;
+}
+.box2 {
+    background-color: white;
+}
+.logo {
+    float: left;
+    height: 100%;
+}
+.list {
+    display: inline-block;
+    text-align: center;
+    font-family: monospace;
+    font-size: 15px;
+    color: black;
+}
+.list li {
+    display: inline-block;
+}
+.button {
+    float: right;
+}
+.box3 {
+    background-color: red;
+}
+.box4 {
+    background-color: red;
+}
+.box5 {
+    width: 100%;
+    height: 30vh;
+    background-color: green;
+    margin-bottom: 10px;
+}
+.box6 {
+    width: 100%;
+    height: 40vh;
+    background-color: orange;
+}
