@@ -31,6 +31,7 @@ body {
     font-size: 15px;
 }
 .button {
+    height: 80%;
     border-radius: 10px;
     background-color: #3470d1;
     border-width: 0;
