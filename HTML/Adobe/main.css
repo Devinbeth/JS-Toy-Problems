@@ -1,42 +1,106 @@
+body {
+    background-color: black;
+}
 .box1 {
     width: 100%;
     height: 10vh;
-    margin-bottom: 10px;
+    display: flex;
 }
 .box2 {
     background-color: white;
 }
-.logo {
+.adobe_logo {
     float: left;
     height: 100%;
 }
 .list {
-    display: inline-block;
+    display: flex;
+    justify-content: space-around;
     text-align: center;
-    font-family: monospace;
-    font-size: 15px;
-    color: black;
+    width: 75%;
+    align-items: center;
+    margin-right: 10%;
+    margin-left: 10%;
 }
 .list li {
     display: inline-block;
+    padding: 10px;
+}
+.list1 {
+    font-family: monospace;
+    font-size: 15px;
 }
 .button {
-    float: right;
+    border-radius: 10px;
+    background-color: #3470d1;
+    border-width: 0;
+    padding: 10px;
+    color: white;
+}
+.button2 {
+    background-color: black;
+    border-width: 0;
+    margin-right: 5%;
+    color: #3470d1;
+}
+.list2 {
+    font-family: monospace;
+    font-size: 15px;
+    color: white;
+}
+.creative_cloud_logo {
+    height: 100%;
+    width: 13vw;
 }
 .box3 {
-    background-color: red;
+    text-align: center;
+    display: flex;
+    width: 100vw;
+    background-image: linear-gradient(-45deg,rgb(8, 8, 8) 35%, rgb(43, 43, 44) 65%);
+}
+.create {
+    width: 100vw;
+    text-align: center;
+    color: white;
+}
+h1 {
+    height: 30%;
+    font-family: monospace;
+    font-size: 25px;
+    padding: 10px;
+}
+p {
+    height: 50%;
+    font-family: monospace;
+    color: white
 }
 .box4 {
-    background-color: red;
+    width: 100%;
+    height: 30vh;
+    margin-bottom: 10px;
+}
+.teams {
+    text-align: center;
+    float: left;
+    width: 25vw;
+    height: 100%;
+    margin-left: 20%;
+}
+.enterprise {
+    text-align: center;
+    float: right;
+    width: 25vw;
+    height: 100%;
+    margin-right: 20%;
+}
+h2 {
+    font-family: monospace;
+    font-size: 20px;
+    color: white;
+    margin: 10%;
 }
 .box5 {
     width: 100%;
-    height: 30vh;
-    background-color: green;
-    margin-bottom: 10px;
-}
-.box6 {
-    width: 100%;
     height: 40vh;
-    background-color: orange;
+    background-image: url("Images/adobe-background.png")
 }
